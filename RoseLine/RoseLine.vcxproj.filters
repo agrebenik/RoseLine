@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{513c9802-9699-4f0f-a13e-4d02f08f7df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enumerators">
+      <UniqueIdentifier>{13724827-bad6-4766-8767-eeef884a1697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Enumerators">
+      <UniqueIdentifier>{9d4115af-9f86-4c70-bc46-671c4dfac419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{0f290463-6a6b-483c-89d8-28120d37c50a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helper Classes">
+      <UniqueIdentifier>{98e961bb-8a57-47e3-bd7f-418f048dba27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helper Classes">
+      <UniqueIdentifier>{198c8782-e1ae-42e4-bf12-ecaa35069be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_MAIN">
+      <UniqueIdentifier>{4d6d0e42-9a5c-4e8c-90d1-77b5a3411614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base Game Objects">
+      <UniqueIdentifier>{a2c2a13d-c22b-4c98-9eec-e9481d02dbbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics Related">
+      <UniqueIdentifier>{a3e8cc76-ee67-476b-980d-82b6ea895d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base Game Objects">
+      <UniqueIdentifier>{f88df7a5-4a56-4a35-ab04-11bf4b45ff93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics Related">
+      <UniqueIdentifier>{481ae98b-4020-4533-a46e-444b29c39fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test Game Objects">
+      <UniqueIdentifier>{0a4a1194-4810-4e10-b8c5-b861fb59d8fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Test Game Objects">
+      <UniqueIdentifier>{b43258ef-ffe1-4c58-b503-d110a39225d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RSE_MAN_GameObject.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RSE_MAN_Main.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RSE_MAN_Resource.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RSE_MAN_Events.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ENM_CollisionAction.cpp">
+      <Filter>Source Files\Enumerators</Filter>
+    </ClCompile>
+    <ClCompile Include="ENM_CollisionType.cpp">
+      <Filter>Source Files\Enumerators</Filter>
+    </ClCompile>
+    <ClCompile Include="ENM_Direction.cpp">
+      <Filter>Source Files\Enumerators</Filter>
+    </ClCompile>
+    <ClCompile Include="ENM_Scancode.cpp">
+      <Filter>Source Files\Enumerators</Filter>
+    </ClCompile>
+    <ClCompile Include="RSE_CollisionArea.cpp">
+      <Filter>Source Files\Physics Related</Filter>
+    </ClCompile>
+    <ClCompile Include="RSE_CollisionBox.cpp">
+      <Filter>Source Files\Physics Related</Filter>
+    </ClCompile>
+    <ClCompile Include="RSE_CollisionCircle.cpp">
+      <Filter>Source Files\Physics Related</Filter>
+    </ClCompile>
+    <ClCompile Include="RSE_EventHandler.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RSE_Scene.cpp">
+      <Filter>Source Files\Base Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="RSE_GameObject.cpp">
+      <Filter>Source Files\Base Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="RSE_MenuItem.cpp">
+      <Filter>Source Files\Base Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="RSE_PhysicsObject.cpp">
+      <Filter>Source Files\Physics Related</Filter>
+    </ClCompile>
+    <ClCompile Include="RoseText.cpp">
+      <Filter>Source Files\_MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="RSE_ID.cpp">
+      <Filter>Source Files\Helper Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="RSE_Time.cpp">
+      <Filter>Source Files\Helper Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="RSE_Vector.cpp">
+      <Filter>Source Files\Helper Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="RSE_Line.cpp">
+      <Filter>Source Files\Helper Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="RSE_Point.cpp">
+      <Filter>Source Files\Helper Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="RSE_Audio.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RSE_PhysTestScene.cpp">
+      <Filter>Source Files\Test Game Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ENM_Direction.h">
+      <Filter>Header Files\Enumerators</Filter>
+    </ClInclude>
+    <ClInclude Include="ENM_CollisionAction.h">
+      <Filter>Header Files\Enumerators</Filter>
+    </ClInclude>
+    <ClInclude Include="ENM_CollisionType.h">
+      <Filter>Header Files\Enumerators</Filter>
+    </ClInclude>
+    <ClInclude Include="ENM_Scancode.h">
+      <Filter>Header Files\Enumerators</Filter>
+    </ClInclude>
+    <ClInclude Include="RSE_MAN_Events.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RSE_MAN_GameObject.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RSE_MAN_Main.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RSE_MAN_Resource.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RSE_CollisionArea.h">
+      <Filter>Header Files\Physics Related</Filter>
+    </ClInclude>
+    <ClInclude Include="RSE_CollisionBox.h">
+      <Filter>Header Files\Physics Related</Filter>
+    </ClInclude>
+    <ClInclude Include="RSE_CollisionCircle.h">
+      <Filter>Header Files\Physics Related</Filter>
+    </ClInclude>
+    <ClInclude Include="RSE_EventHandler.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RSE_MenuItem.h">
+      <Filter>Header Files\Base Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="RSE_PhysicsObject.h">
+      <Filter>Header Files\Base Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="RSE_GameObject.h">
+      <Filter>Header Files\Base Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="RSE_Scene.h">
+      <Filter>Header Files\Base Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="RSE_Time.h">
+      <Filter>Header Files\Helper Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="RSE_ID.h">
+      <Filter>Header Files\Helper Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="RSE_Vector.h">
+      <Filter>Header Files\Helper Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="RSE_Line.h">
+      <Filter>Header Files\Helper Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="RSE_Point.h">
+      <Filter>Header Files\Helper Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="RSE_Audio.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RSE_PhysTestScene.h">
+      <Filter>Header Files\Test Game Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
